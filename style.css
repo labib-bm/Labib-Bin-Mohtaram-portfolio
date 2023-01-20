@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin: 0;
+}
+#welcome{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#welcome div{
+    padding-left: 5%;
+    width: 50%;
+}
+#welcome img{
+    width: 80%;
+}
+#welcome span{
+    color:brown; 
+}
+#welcome h1{
+    font-size: 35px;
+    color:rgba(237, 149, 8, 0.975);
+}
+#welcome #wel{
+    font-size: 50px;
+    color:rgba(237, 149, 8, 0.975);
+}
+.link{
+    font-size: 20px;
+    color:white;
+    background-color: coral;
+    padding: 8px 8px 8px 8px;
+    border: 2px coral solid;
+    border-radius: 10px;
+}
+#dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+}
+#dream div{
+    padding-right: 6%;
+    padding-left: 5%;
+    width: 50%;
+}
+#dream img{
+    width: 80%;
+}
+#dream h1{
+    font-size: 35px;
+    color:rgba(237, 149, 8, 0.975);
+}
