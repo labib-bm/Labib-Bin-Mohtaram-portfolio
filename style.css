@@ -18,7 +18,7 @@ body{
 #welcome span{
     color:brown; 
 }
-#welcome h1{
+h1{
     font-size: 35px;
     color:rgba(237, 149, 8, 0.975);
 }
@@ -38,6 +38,7 @@ body{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
 #dream div{
     padding-right: 6%;
@@ -50,4 +51,35 @@ body{
 #dream h1{
     font-size: 35px;
     color:rgba(237, 149, 8, 0.975);
+}
+#exp{
+    padding-left: 5%;
+    padding-right: 3%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 5%;
+}
+#exp-div{
+    display: flex;
+}
+.exp-div-part{
+    padding: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 5px 5px 10px gray;    
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: large;
 }
